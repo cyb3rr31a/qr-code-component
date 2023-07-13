@@ -1,0 +1,45 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+} 
+@font-face {
+    font-family: customfont;
+    src: url(static/Outfit-Regular.ttf);
+}
+@font-face {
+    font-family: custombold;
+    src: url(static/Outfit-ExtraBold.ttf);
+}
+h3 {
+    font-size: 18px;
+    font-family: custombold;
+    font-weight: 700px;
+    color: black;
+}
+p {
+    font-size: 13px;
+    font-family: customfont;
+    font-weight: 400px;
+    color: hsl(220, 15%, 55%)
+    
+}
+img {
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+}
+.center {
+    background-color: hsl(0, 0%, 100%);
+    width: 220px;
+    height: 380px;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+.box {
+    padding-right: 5px;
+    padding-left: 5px;
+}
